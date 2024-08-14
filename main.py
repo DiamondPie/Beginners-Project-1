@@ -1,3 +1,8 @@
+# IMPORTANT
+# If you're using MAC or LINUX Device, to make automatic screen clearing
+# You need to change line 48 & 95 to the following line:
+# os.system('clear')
+
 import os, time
 from get_random_word import getRandomWord
 # There is an amount of ~275000 words
